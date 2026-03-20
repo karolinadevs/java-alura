@@ -24,6 +24,11 @@ public class Main {
                 ano de lançamento: 
                 """ + anoDeLancamento;
         System.out.println(sinopse2);
+
+        //casting (conversao de tipos
+        int classificacao = (int) (media / 2);
+        System.out.println(classificacao);
+
     }
 }
 
