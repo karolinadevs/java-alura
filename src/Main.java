@@ -8,6 +8,7 @@ public class Main {
         boolean incluidoNoPlano = true;
         double notaDoFilme = 8.1;
 
+        //media calculada pelas 2 notas da na e do leo
         double media = (10.0 + 10.0)/2;
         System.out.println(media);
         String sinopse;
@@ -25,5 +26,6 @@ public class Main {
         System.out.println(sinopse2);
     }
 }
+
 
 
