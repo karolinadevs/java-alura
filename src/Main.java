@@ -10,6 +10,9 @@ public class Main {
 
         double media = (10.0 + 10.0)/2;
         System.out.println(media);
+        String sinopse;
+        sinopse = "filme de ação que retrata a vida de brinquedos que criam vida própria";
+        System.out.println(sinopse);
     }
 }
 
