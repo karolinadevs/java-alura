@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class Loop {
+public class OutroLoop {
     public static void main(String[] args) {
         Scanner leitura = new Scanner(System.in);
         double mediaAvaliacao = 0;
         double nota = 0;
 
-        for (int i = 0; i < 3; i++) {
-            System.out.println("diga sua avaliacao para o filme de 1 a 10: ");
+        while (nota != -1) {
+            System.out.println("diga sua avaliacao para o filme ou -1 para encerrar: ");
             nota = leitura.nextDouble();
             mediaAvaliacao += nota;
         }
-        System.out.println("media de avaliacoes " + mediaAvaliacao/3);
+        System.out.println("media de avaliacoes " + mediaAvaliacao);
     }
 }
